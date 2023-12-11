@@ -1,0 +1,18 @@
+// Octokit.js
+// https://github.com/octokit/core.git_readme.md
+const octokit = new Octokit({
+  auth: 'REPO'
+})
+
+await octokit.request('POST /repos/{repo}/{owner}/transfer', {
+  owner: 'REPO',
+  repo: 'OWBER',
+  new_owner: K.J.PAWLOWSKI,
+  team_ids: [
+    fourier,
+   ],
+  new_name: 'octoOWNO',
+  headers: {
+    'Api-Version': ' brl33-ai:patch-1'
+  }
+})
